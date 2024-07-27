@@ -1,0 +1,87 @@
+/* src/VoiceEnabledMapInterface.css */
+.hero {
+  background-color: #f0f0f0;
+  padding: 50px 20px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #333;
+}
+
+.hero p {
+  margin: 20px 0 0;
+  font-size: 1.2em;
+  color: #666;
+}
+
+
+#map {
+    height: 500px;
+    width: 100%;
+  }
+  
+  #voiceCommand {
+    position: relative;
+    margin-top: 10px;
+    background: white;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  #commandsList {
+    position: relative;
+    margin-top: 10px;
+    background: white;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  #commandResult {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  #startListening {
+    background-color: #4CAF50;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .highway-marker div {
+    background-color: #76baff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    padding: 10px 40px; /* Adjust padding to increase width */
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    max-width: 150px; /* Maximum width of the div */
+    white-space: nowrap; /* Prevent text wrapping */
+    border: 2px solid #000; /* Black outline */
+    font-weight: bold; /* Bold text */
+  }
+  
